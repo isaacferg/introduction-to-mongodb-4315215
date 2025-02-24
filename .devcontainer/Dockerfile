@@ -21,7 +21,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && export GOPATH=/workspace/lessions/5.4 \
     && export PATH=$GOPATH/bin:$GOROOT/bin:$PATH \
     #&& cd /workspaces/introduction-to-mongodb-4315215/lessons/5.4 && go get go.mongodb.org/mongo-driver/mongo \
-    && go install -v golang.org/x/tools/gopls@latest
+    && go install -v golang.org/x/tools/gopls@v0.16.0
 
 #golang-gopkg-mgo.v2-dev
 
